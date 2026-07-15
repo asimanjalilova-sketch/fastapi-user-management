@@ -179,19 +179,6 @@ Current test coverage includes:
 - Delete missing user
 - Empty user list
 
-## Continuous Integration
-
-This project uses **GitHub Actions** for Continuous Integration.
-
-On every push or pull request to the `main` branch, GitHub automatically:
-
-- Checks out the repository
-- Sets up Python
-- Installs project dependencies
-- Runs all pytest tests
-
-This ensures that changes do not break the application before they are merged.
-
 ## Future Improvements
 
 - Database integration (PostgreSQL or SQLite)
@@ -203,10 +190,3 @@ This ensures that changes do not break the application before they are merged.
 - gRPC service expansion
 - Deployment to a cloud platform
 
-## Author
-
-**Asiman Jalilova**
-
-Computer Science Student
-
-Backend Development | Python | FastAPI
